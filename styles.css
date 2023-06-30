@@ -1,0 +1,176 @@
+body {
+    font-family: 'Gianiteh',sans-serif !important;
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  header {
+    background-color: #222;
+    background-image: linear-gradient(45deg, #ffdf00, #d4af37);
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+  }
+  
+  main {
+    padding: 2rem;
+  }
+  
+  .form-container {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  h2 {
+    margin-top: 0;
+  }
+
+  .input-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+  }
+  
+  label {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  input,
+  select {
+    padding: 0.5rem;
+    font-size: 16px;
+    border: 1px solid #d4af37;
+    border-radius: 4px;
+  }
+  
+  .faded-text {
+    font-size: 16px;
+    color: #d4af37;
+    margin-top: 0.5rem;
+  }
+  
+  button {
+    padding: 0.5rem 1rem;
+    background-color: #d4af37;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background-color: #ffdf00;
+  }
+  
+  footer {
+    text-align: center;
+    background-color: #222;
+    background-image: linear-gradient(45deg, #ffdf00, #d4af37);
+    color: #fff;
+    padding: 1rem 0;
+  }
+  
+
+  .form-container {
+    background: linear-gradient(to bottom right, #d9c28c, #a68c64);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .form-container h2 {
+    margin-bottom: 20px;
+  }
+  
+  .form-container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .input-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+  }
+  
+  .label {
+    font-weight: bold;
+  }
+  
+  .input-group label,
+  .radio-group label {
+    color: #fff;
+    margin-bottom: 5px;
+  }
+  
+  .input-group input[type="text"],
+  .input-group input[type="password"],
+  .radio-group input[type="radio"] {
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .input-group input[type="text"],
+  .input-group input[type="password"] {
+    background-color: rgba(255, 255, 255, 0.8);
+  }
+  
+  .input-group input[type="text"]:focus,
+  .input-group input[type="password"]:focus {
+    background-color: rgba(255, 255, 255, 1);
+  }
+  
+  .radio-group {
+    display: flex;
+  }
+  
+  .radio-group input[type="radio"] {
+    margin-right: 5px;
+  }
+  
+  .button {
+    background-color: #a68c64;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: #8c734f;
+  }
+  
+  .login-section {
+    margin-top: 20px;
+  }
+  
+  .login-section h2 {
+    color: #fff;
+    margin-bottom: 10px;
+  }
+  
+  .login-section button {
+    background-color: #8c734f;
+  }
+
+  .login-section {
+    background: linear-gradient(to bottom right, #232323, #333333);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    margin: 20px auto;
+  }
+  
+  .login-section h2 {
+    color: #fff;
+    margin-bottom: 10px;
+  }
+  

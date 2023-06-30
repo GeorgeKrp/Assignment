@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kreativ</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Gianiteh&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <h1>Kreativ</h1>
+    <p>Create an Account</p>
+  </header>
+  <main>
+    <div class="form-container">
+      <h2>Create Account</h2>
+      <form>
+        <div class="input-group">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" placeholder="e.g., John" required />
+        </div>
+        <div class="input-group">
+          <label for="surname">Surname:</label>
+          <input type="text" id="surname" name="surname" placeholder="e.g., Doe" required />
+        </div>
+        <div class="input-group">
+          <label>Country of Birth:</label>
+          <div class="radio-group">
+            <input type="radio" id="ireland" name="country" value="Ireland" required />
+            <label for="ireland">Ireland</label>
+            <input type="radio" id="uk" name="country" value="United Kingdom" required />
+            <label for="uk">United Kingdom</label>
+            <input type="radio" id="us" name="country" value="US" required />
+            <label for="us">US</label>
+            <input type="radio" id="romania" name="country" value="Romania" required />
+            <label for="romania">Romania</label>
+          </div>
+        </div>
+        <div class="input-group">
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="password" placeholder="Minimal 8 characters with the first one capital" required pattern="^(?=.*[A-Z]).{8,}$" />
+        </div>
+        <button type="submit">Create Account</button>
+      </form>
+    </div>
+    <div class="login-section">
+      <h2>Already have an account?</h2>
+      <form>
+        <div class="input-group">
+          <label for="username">Username:</label>
+          <input type="text" id="username" name="username" placeholder="Enter your username" required />
+        </div>
+        <div class="input-group">
+          <label for="login-password">Password:</label>
+          <input type="password" id="login-password" name="login-password" placeholder="Enter your password" required />
+        </div>
+        <button type="submit">Log In</button>
+      </form>
+    </div>
+  </main>
+  <footer>
+    <p>&copy; Kreativ 2023</p>
+  </footer>
+</body>
+</html>
